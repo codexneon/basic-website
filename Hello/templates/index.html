@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+<div class="container-fluid my-4 px-0" >
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/1600x600/?japan" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1600x600/?paris" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1600x600/?berlin" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="container-fluid">
+<main>
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-white">Places to visit</h1>
+      <p class="lead fw-light text-body-secondary"><i><h3>You can go wherever you want , whenever you want !! What you need to do is believe.</h3></i></p>
+    </div>
+  </div>
+</section>
+
+<div class="album">
+  <div class="container">
+
+    <div class="row px-0">
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x600/?switzerland" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Switzerland</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Roam</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x600/?china" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>China</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Roam</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x600/?United Kingdom" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>United Kingdom</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Roam</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</main>
+
+<footer class="text-body-secondary py-5">
+<div class="container">
+  <p class="float-end mb-1">
+    <a href="#">Back to top</a>
+  </p>
+  <p class="mb-1">This are all the places you can visit for now</p>
+  <p class="mb-0">Welcome to makemyTrip | <a href="/">Visit the homepage</a> | or read our About Us</a>.</p>
+</div>
+</footer>
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+{% endblock body %}
+
